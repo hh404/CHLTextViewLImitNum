@@ -35,7 +35,7 @@
         _inputTextView.textColor = GET_COLOR(@"a1bee1");
         _inputTextView.font = [UIFont systemFontOfSize:15];
         _inputTextView.delegate = self;
-        _inputTextView.placeholder = @"战队简介文字输入不超过50字";
+        _inputTextView.placeholder = @"战队简介文字输入不超过10字";
         _inputTextView.placeholderColor = GET_COLOR(@"a1bee1");
     }
     return _inputTextView;
