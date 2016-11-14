@@ -3,4 +3,4 @@
 
 下面的截图限制字数在10(汉子相当于两个字节,英文1个字节)
 
-![](https://github.com/CHLAndLXB/CHLTextViewLImitNum/raw/master/CHLTextViewLimitNum/444.gif)
+![](https://github.com/CHLAndLXB/CHLTextViewLImitNum/raw/master/CHLTextViewLimitNum/4444.gif)
