@@ -13,7 +13,7 @@
 		EEC085861DD985DB00D1B398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC085841DD985DB00D1B398 /* Main.storyboard */; };
 		EEC085881DD985DB00D1B398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC085871DD985DB00D1B398 /* Assets.xcassets */; };
 		EEC0858B1DD985DB00D1B398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC085891DD985DB00D1B398 /* LaunchScreen.storyboard */; };
-		EEC085941DD9866D00D1B398 /* TextViewPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC085931DD9866D00D1B398 /* TextViewPlaceholder.m */; };
+		EEC085941DD9866D00D1B398 /* PlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC085931DD9866D00D1B398 /* PlaceholderTextView.m */; };
 		EEC085971DD9871700D1B398 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC085961DD9871700D1B398 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +28,8 @@
 		EEC085871DD985DB00D1B398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEC0858A1DD985DB00D1B398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEC0858C1DD985DB00D1B398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EEC085921DD9866D00D1B398 /* TextViewPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewPlaceholder.h; sourceTree = "<group>"; };
-		EEC085931DD9866D00D1B398 /* TextViewPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewPlaceholder.m; sourceTree = "<group>"; };
+		EEC085921DD9866D00D1B398 /* PlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderTextView.h; sourceTree = "<group>"; };
+		EEC085931DD9866D00D1B398 /* PlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderTextView.m; sourceTree = "<group>"; };
 		EEC085951DD9871700D1B398 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		EEC085961DD9871700D1B398 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,8 +66,8 @@
 			children = (
 				EEC085951DD9871700D1B398 /* UIView+Extension.h */,
 				EEC085961DD9871700D1B398 /* UIView+Extension.m */,
-				EEC085921DD9866D00D1B398 /* TextViewPlaceholder.h */,
-				EEC085931DD9866D00D1B398 /* TextViewPlaceholder.m */,
+				EEC085921DD9866D00D1B398 /* PlaceholderTextView.h */,
+				EEC085931DD9866D00D1B398 /* PlaceholderTextView.m */,
 				EEC0857E1DD985DA00D1B398 /* AppDelegate.h */,
 				EEC0857F1DD985DB00D1B398 /* AppDelegate.m */,
 				EEC085811DD985DB00D1B398 /* ViewController.h */,
@@ -165,7 +165,7 @@
 				EEC085831DD985DB00D1B398 /* ViewController.m in Sources */,
 				EEC085801DD985DB00D1B398 /* AppDelegate.m in Sources */,
 				EEC0857D1DD985DA00D1B398 /* main.m in Sources */,
-				EEC085941DD9866D00D1B398 /* TextViewPlaceholder.m in Sources */,
+				EEC085941DD9866D00D1B398 /* PlaceholderTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +324,7 @@
 				EEC085911DD985DB00D1B398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
